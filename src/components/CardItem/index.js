@@ -6,9 +6,11 @@ const CardItem = (props) => {
 
     return (
         <li className={`${className} card-container`}>
-            <h1 className="technology-name">{technologyName}</h1>
+            <h1 className="card-title">{technologyName}</h1>
             <p className="card-description">{description}</p>
-            <img src={imgUrl} className="avatar" alt="avatar"/>
+            <div className="img-container">
+                <img src={imgUrl} className="card-img" alt={title}/>
+            </div>
         </li>
     )
 
