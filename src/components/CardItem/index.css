@@ -1,0 +1,13 @@
+.card-container {
+    background-color: #ffffff;
+    width: 328px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-radius: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 48px;
+    list-style-type: none;
+}
