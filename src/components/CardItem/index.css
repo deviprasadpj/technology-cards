@@ -12,6 +12,13 @@
     list-style-type: none;
 }
 
+.card-title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
 .card-description {
   color: #64748b;
   font-family: 'Roboto';
